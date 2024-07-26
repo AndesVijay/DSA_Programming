@@ -1,4 +1,4 @@
-package com.leetcode.practice.easy.easy;
+package com.leetcode.practice.easy.binary_search;
 
 import java.util.Arrays;
 
