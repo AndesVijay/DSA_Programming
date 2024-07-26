@@ -1,4 +1,4 @@
-package org.example.two_pointers;
+package com.leetcode.practice.easy.two_pointers;
 
 public class TwoPointerProblem {
     public boolean isPalindrome(String str )
