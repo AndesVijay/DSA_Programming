@@ -1,10 +1,12 @@
 package com.leetcode.practice.easy.easy;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class BinarySearchTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isTargetNumberPresent() {
         BinarySearch b1 = new BinarySearch();
         assertTrue(b1.isTargetNumberPresent(new int[]{5, 6, 9}, 5));
