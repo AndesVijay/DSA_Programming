@@ -3,6 +3,15 @@ package com.leetcode.practice.easy.sliding_window;
 import java.util.HashMap;
 
 public class ImplementSlidingWindow {
+    /**
+     * /**
+     * Returns Length of longest substring without repetition
+     * @param str to be input
+     * @return integer
+     * @TimeComplexity O(n)
+     * @SpaceComplexity O(n)
+     * @TimeTaken 20minutes
+     */
     public int LengthOfLongestSubstring(String str) {
         int windowStart = 0, longestLength = 0, index = 0, windowSize = 0;
         HashMap<Character, Integer> lastSeen = new HashMap<>();
