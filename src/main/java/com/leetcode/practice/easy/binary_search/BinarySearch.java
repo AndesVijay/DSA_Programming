@@ -17,7 +17,7 @@ public class BinarySearch {
          * Example
          */
         Arrays.sort(arr);
-        int len = arr.length;
+
         int start = 0;
         int end = arr.length - 1;
         if (arr.length == 0) {

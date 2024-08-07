@@ -5,10 +5,10 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class BinarySearchTest {
-
+    BinarySearch b1 = new BinarySearch();
     @Test
     void isTargetNumberPresent() {
-        BinarySearch b1 = new BinarySearch();
+
         assertTrue(b1.isTargetNumberPresent(new int[]{5, 6, 9}, 5));
         assertFalse(b1.isTargetNumberPresent(new int[]{1, 2, 3, 4, 5, 6}, 50));
         assertTrue(b1.isTargetNumberPresent(new int[]{78, 76, 46, 9}, 9));
