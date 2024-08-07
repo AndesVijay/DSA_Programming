@@ -1,4 +1,4 @@
-package org.example;
+package com.leetcode.practice.easy;
 
 public class Main {
     public static void main(String[] args) {
